@@ -12,13 +12,13 @@ export default function AnnualSection() {
         </h3>
       </div>
 
-      <div className="flex justify-center px-10 pb-36">
+      <div className="flex justify-center px-10 h-[750px]">
         <Image
           src={"/images/annual.png"}
           alt="Annual image"
-          width={1900}
-          height={1080}
-          className="w-full h-auto"
+          width={1200}
+          height={600}
+          className="w-full h-[600px]"
         />
       </div>
     </div>
