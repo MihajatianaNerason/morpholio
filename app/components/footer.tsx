@@ -1,3 +1,4 @@
+import { playfair } from "@/public/fonts/config/config";
 import { Facebook, Instagram } from "lucide-react";
 
 export default function Footer() {
@@ -20,8 +21,10 @@ export default function Footer() {
         </div>
       </div>
       <div>
-        <h2 className="text-[#FBEAD6] text-7xl md:text-9xl font-extrabold text-center">
-          PAPER LANTERNS
+        <h2
+          className={`text-[#FBEAD6] ${playfair.className} text-7xl font-extrabold text-center scale-y-50 md:text-[180px] `}
+        >
+          PAPER <br /> LANTERNS
         </h2>
       </div>
     </div>
